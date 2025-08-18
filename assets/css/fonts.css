@@ -1,0 +1,38 @@
+/* ^ --------------------------------------   Add Fonts   ----------------------------------------------*/
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Light.ttf);
+    
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: JosefinSlab;
+    src: url(../fonts/JosefinSlab-Medium.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+/* ^ ================================
+   ^ Ubuntu Sans Variable Fonts
+   ^ ================================ */
+@font-face {
+  font-family: 'Ubuntu Sans';
+  src: url('../fonts/UbuntuSans-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-weight: 100 800; /* Thin → ExtraBold */
+  font-stretch: 75% 100%; /* Condensed → Normal */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu Sans';
+  src: url('../fonts/UbuntuSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 800;
+  font-stretch: 75% 100%;
+  font-style: italic;
+}
