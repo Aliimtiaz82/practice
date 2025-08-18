@@ -1,0 +1,69 @@
+/*^--------------------------------------   Add Fonts   ----------------------------------------------*/
+
+@import url(/assets/css/fonts.css); 
+
+
+/*^--------------------------------------   Variable   ------------------------------------------------*/
+
+:root{
+/* &                                                                      Fonts Family Variable |----- */
+    --font: 'Ubuntu Sans';
+/* &                                                                            Colors Variable |----- */
+    --red: #ff0000;
+    --purple: #646cff;
+    --purple-600: #7c3aed;
+    --pink-600: #db2777;
+    --orange-600: #ea580c;
+    --blue: rgb(24, 90, 186);
+    --light-blue: #00bcff;
+    --green: #107c41;
+    --orange:#ff6600;
+    --yellow: #f7de1e;
+    --dark-background: #242424;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+body{
+    /* display: flex; */
+    place-items: center;
+
+    font-family: var(--font);
+    background-color: var(--dark-background);
+}
+
+
+#coding {
+  padding-top: 5rem;
+  max-width: 1280px;
+  text-align: center;
+}
+
+.coding{
+  width: 16em;
+  padding: 1.5em;
+}
+
+.gradient-text{
+  background-image: linear-gradient(to right, var(--purple-600), var(--pink-600), var(--orange-600));
+  background-clip: text;
+  -webkit-background-clip: text;   /* Safari/Chrome */
+  color: transparent;
+  -webkit-text-fill-color: transparent; /* Safari */
+  display: inline-block; /* helps ensure the background clips to text bounds */
+  font-size: 4.5em;
+  font-weight: 800; /* extra bold */
+}
+
+
+.coding:hover {
+  filter: drop-shadow(0 0 2em var(--purple-600));
+}
+
